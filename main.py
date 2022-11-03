@@ -8,10 +8,10 @@ import re
 
 ### ============================================> 𝙱𝙾𝚃 𝙼𝙰𝙺𝙸𝙽𝙶 𝚁𝙴𝚀𝚄𝙸𝚁𝙼𝙴𝙽𝚃 <===============================================###
 
-API_ID = os.environ.get("API_ID", None) 
-API_HASH = os.environ.get("API_HASH", None) 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", None) 
-MONGO_URL = os.environ.get("MONGO_URL", None)
+API_ID = 10248430 
+API_HASH = "42396a6ff14a569b9d59931643897d0d"
+BOT_TOKEN = "5709229627:AAHWn-lp3r3BXK7kRs8_vnmRIQnUMHRV2bU"
+MONGO_URL = "mongodb+srv://AyraMusic:Ayra@cluster0.gnakzem.mongodb.net/?retryWrites=true&w=majority"
 
 
 bot = Client(
